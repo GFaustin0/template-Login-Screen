@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #F8F8F8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.box1 {
+    display: flex;
+    width: 1050px;
+    height: 650px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.103);
+    border-radius: 18px;
+    background-color: #F8F8F8;
+
+
+}
+
+.boxinput {
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Wlc {
+    margin-bottom: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+
+.EnterEmail {
+    margin-bottom: 28px;
+    width: 320px;
+    height: 46px;
+    background-color: #F8F8F8;
+    border: 1px solid #141414;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.EnterPassword {
+    width: 320px;
+    height: 46px;
+    background-color: #F8F8F8;
+    border: 1px solid #141414;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+input[type="checkbox"] {
+
+    appearance: none;
+    background-color: #DEDEDE;
+    color: currentColor;
+    width: 16px;
+    height: 16px;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    margin-right: 8px;
+    cursor: pointer;
+
+}
+
+input[type="checkbox"] {
+    /* ...existing styles */
+
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    transform: scale(0);
+    border-radius: 0.15em;
+    transition: 120ms transform ease-in-out;
+    background-color: #00DBB3;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.check {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    height: 15px;
+    width: 320px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.linebox {
+    margin-top: 40px;
+    background-color: #DEDEDE;
+    height: 2px;
+    width: 320px;
+    margin-bottom: 26px;
+}
+
+.social {
+    width: 320px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.google {
+    background-color: #F8F8F8;
+    width: 136px;
+    height: 46px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.13);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook {
+    background-color: #F8F8F8;
+    width: 136px;
+    height: 46px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login {
+    color: #00DBB3;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border: 1px solid #00DBB3;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    width: 320px;
+    height: 46px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.login:hover {
+    color: #F8F8F8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border: 1px solid #00DBB3;
+    background-color: #00DBB3;
+    transition-duration: 0.1s;
+
+}
+
+
+.box2 {
+    border-radius: 18px;
+    height: 100%;
+    width: 50%;
+    background-image: url('image/arina-bondar-qw44fdYtp40-unsplash.jpg');
+    background-size: cover;
+}
+
+.image-gradient {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #f8f8f8, transparent 55%);
+}
+
+.icongoogle {
+
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    margin-right: 8px;
+}
+
+.textgoogle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.iconface {
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    margin-right: 8px;
+}
+
+.textface {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
